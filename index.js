@@ -93,7 +93,7 @@ require([
     flowType: "authorization-code", //  If using supported server/portal version and a popup, two-step authentication is used.
     popup: true,
     portalUrl: esriConfig.portalUrl,
-    popupCallbackUrl: "http://127.0.0.1:5501/oauth-callback.html", // make sure to set callback page to one that supports authentication type
+    popupCallbackUrl: "https://github.com/DerekJuracek/Subways_Navigator_AD_Sign_In/blob/main/oauth-callback.html", // make sure to set callback page to one that supports authentication type
   });
 
   console.log(info);
