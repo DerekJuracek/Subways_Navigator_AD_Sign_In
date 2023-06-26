@@ -89,7 +89,7 @@ require([
   });
 
   let info = new OAuthInfo({
-    appId: "JcGSopI6KXkvnquy",
+    appId: "UIR5h0gBv5228xQ9",
     flowType: "authorization-code", //  If using supported server/portal version and a popup, two-step authentication is used.
     popup: true,
     portalUrl: esriConfig.portalUrl,
